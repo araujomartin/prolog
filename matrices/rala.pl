@@ -1,4 +1,3 @@
-
 matrizRala(M,MR):-
     rala(M,MR,1,1).
 
@@ -17,3 +16,4 @@ rala([[E|Es]|R],[[X,Y,E]|SR],X,Y):-
 rala([[]|R],SR,_,Y):-
     Y1 is Y+1,
     rala(R,SR,1,Y1).
+
